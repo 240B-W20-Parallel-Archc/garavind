@@ -40,7 +40,7 @@ void sequential_ll(struct Node **lst, int inc) {
 void latency() {
 
 	FILE *file;
-	file = fopen("output.csv", "a+");
+	file = fopen("performance_output.csv", "a+");
 
 	int length = (array_size)/(sizeof(int));
 	struct Node* mem = (struct Node*)malloc(len*sizeof(struct Node));
