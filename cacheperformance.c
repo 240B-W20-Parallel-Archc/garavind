@@ -80,12 +80,10 @@ void latency() {
 		end_time = clock();
 		cputime_ns = (1e9 * ( (double)(end_time - start_time)/CLOCKS_PER_SEC)) / r_cnt;
 		fprintf(fp,"%lf,%d,%d,%d,%d,%lf\n", size_kb,threadcnt,random_flag,sequential_flag,write_flag,cputime_ns);
-		//printf("For only Read case: random_flag: %d, sequential_flag: %d, write_flag: %d, size:%d, cputime:%f\n", random_flag, sequential_flag, write_flag, array_size,cputime_ns);
-		//printf("For only Read case: CPU time is %f ns\n", cputime_ns);
 		}
 
 	else {
-    //printf("Read Modify Write (RMW) case loop\n");
+    		//printf("Read Modify Write (RMW) case loop\n");
 		clock_t start_time_rmw, end_time_rmw;
 		double cputime_rmw;
 		int rmw_count = 0;
