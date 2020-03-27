@@ -9,7 +9,6 @@
 #include <stdbool.h>
 #include <pthread.h>
 
-
 void latency();
 
 #endif /* CACHEPERF_H_ */
