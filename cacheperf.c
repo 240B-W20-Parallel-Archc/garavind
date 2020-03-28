@@ -1,4 +1,4 @@
-#include "cacheperformance.h"
+#include "cacheperf.h"
 #include <stdio.h>
 
 int threadcnt;
