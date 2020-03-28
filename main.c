@@ -1,4 +1,4 @@
-#include "cacheperformance.h"
+#include "cacheperf.h"
 
 FILE *stream;
 FILE *fp;
