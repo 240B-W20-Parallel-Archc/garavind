@@ -18,7 +18,7 @@ void print_usage() {
 	fprintf(stderr, "	-s/-r (sequential or random access) \n");
 	fprintf(stderr, "	-size:<array_size> (in KB) \n");
 	fprintf(stderr, " 	-stride:<stride length> (only in sequential) \n");
-	fprintf(stderr, " 	-write (For changing to read-modify-write mode, default is read\n)");
+	fprintf(stderr, " 	-write (For changing to RMW mode, default is read\n)");
 }
 
 int handling_inputs(char *arg) {
