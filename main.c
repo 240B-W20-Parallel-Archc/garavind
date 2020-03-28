@@ -68,15 +68,6 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
-	//thread creation and joining to be done here
-	/*
-	 * int pthread_create(pthread_t * thread,
-                   const pthread_attr_t * attr,
-                   void * (*start_routine)(void *),
-                   void *arg);
-       int pthread_join(pthread_t th, void **thread_return);
-	 */
-
 	if(threadcnt > 1) {
 		pthread_t* threads = (pthread_t*)malloc(thread_count*sizeof(pthread_t));
 		for (int i = 0; i < threadcnt; i++) {
