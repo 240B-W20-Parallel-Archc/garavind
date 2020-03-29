@@ -1,3 +1,0 @@
-We need gcc to run the code (with pthreads enabled)
-doit.sh will run one instance of read and one instance of read-modify-write
-To run the code: source doit.sh
