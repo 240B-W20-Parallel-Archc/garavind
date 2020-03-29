@@ -1,0 +1,3 @@
+# gcc is required to run the code (with pthreads enabled)
+# doit.sh will run one instance of read and one instance of read-modify-write
+# How to run the code: source doit.sh
