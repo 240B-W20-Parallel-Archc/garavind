@@ -1,3 +1,3 @@
 # gcc is required to run the code (with pthreads enabled)
-# doit.sh will run the program for different sizes of data structure and the Random vs Sequential for extra credit section
+# doit.sh will generate the .csv file to record latency values and also runs the program for the size of data structure 8192KB
 # How to run the code: source doit.sh
