@@ -1,3 +1,3 @@
 # gcc is required to run the code (with pthreads enabled)
-# doit.sh will run the program for different sizes of data structure
+# doit.sh will run the program for different sizes of data structure and the Random vs Sequential for extra credit section
 # How to run the code: source doit.sh
